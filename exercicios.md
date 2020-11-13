@@ -34,3 +34,6 @@ Faça um programa que calcule a média simples (aritmética) de 3 valores quaisq
 ### Calculadora básica
 
 Escreva uma função para cada uma das quatro operações matemáticas simples: **adição**, **subtração**, **multiplicação** e **divisão**
+
+
+teste aaaaaaaaaaaaaaaaaaaaaaaaaaaa
