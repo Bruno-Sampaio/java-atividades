@@ -15,3 +15,11 @@ console.log("b", b)
 /*
 utilização de parametros em rotorno nas funções
 */ 
+
+function troca(a, b){
+    var temporaria = a;
+    a = b;
+    b = temporaria;
+    return {a, b};
+}
+console.log(troca(6, 5));
