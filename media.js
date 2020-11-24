@@ -4,10 +4,19 @@ function media(){
  var media2 = 9;
  var media3 = 8;
 
-somamedias = media1 + media2 + media3;
-console.log("soma media = ", somamedias);
+somaMedias = media1 + media2 + media3;
+console.log("soma media = ", somaMedias);
 
-media = somamedias / medias;
+media = somaMedias / medias;
 console.log("media = ", media);
 }
 media()
+
+/*
+utilização de parametros em rotorno nas funções
+*/ 
+
+function media1(medias1, media11, media21, media31){
+    return (media11 + media21 + media31) / medias1;
+}
+console.log("soma media = ", media1(3, 7, 9, 8));

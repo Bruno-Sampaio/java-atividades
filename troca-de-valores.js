@@ -11,3 +11,7 @@ b = temporaria
 
 console.log("a", a)
 console.log("b", b)
+
+/*
+utilização de parametros em rotorno nas funções
+*/ 

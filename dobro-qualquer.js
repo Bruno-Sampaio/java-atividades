@@ -8,4 +8,11 @@ function dobrar(){
 }     
      dobrar()
 
+/*
+utilização de parametros em rotorno nas funções
+*/ 
 
+function dobrar1(numeroQualquer){
+     return numeroQualquer * 2;
+}
+console.log("Dobro é = ", dobrar1(8));
