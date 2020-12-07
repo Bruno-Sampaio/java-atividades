@@ -16,7 +16,7 @@ media()
 utilização de parametros em rotorno nas funções
 */ 
 
-function media1(medias1, media11, media21, media31){
-    return (media11 + media21 + media31) / medias1;
+function media(medias, media1, media2, media3){
+    return (media1 + media2 + media3) / medias;
 }
-console.log("soma media = ", media1(3, 7, 9, 8));
+console.log("soma media = ", media(3, 7, 9, 8));

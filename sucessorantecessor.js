@@ -22,12 +22,12 @@ sucessor()
 utilização de parametros em rotorno nas funções
 */ 
 
-function antecessor1(numeroQualquer1){
-    return numeroQualquer1 - 1;
+function antecessor1(numeroQualquer){
+    return numeroQualquer - 1;
 }
 console.log("antecessor = ", antecessor1(3));
 
-function sucessor1(numeroQualquer2){
-    return numeroQualquer2 + 1;
+function sucessor1(numeroQualquer){
+    return numeroQualquer + 1;
 }
 console.log("sucessor = ", sucessor1(3));
