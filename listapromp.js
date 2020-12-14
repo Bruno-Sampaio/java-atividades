@@ -12,3 +12,9 @@ function preencherCliente(){
 preencherCliente()
 cadastrarCliente(cliente);
 console.log(clientes)
+
+clientes.push(cliente);
+    for(var contador = 0; contador < clientes.length; contador++) {
+        var clientesDaLista = clientes[contador]
+        console.log("\nNome: ", clientesDaLista.nome, "\nCPF: ", clientesDaLista.cpf, "\nEmail:", clientesDaLista.email, "\nRG: ", clientesDaLista.rg);
+}
